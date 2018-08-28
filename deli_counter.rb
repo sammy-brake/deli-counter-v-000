@@ -11,7 +11,7 @@ def line(katz_deli)
       final_line << "#{counter}. #{name} "
       counter += 1 
   end
-  return  final_line 
+  puts  final_line 
   
 end 
   
