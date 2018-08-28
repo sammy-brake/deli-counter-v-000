@@ -5,10 +5,10 @@ def line(katz_deli)
     puts "The line is currently empty."
     
   else
-    final_line = "The line is currently: "
+    final_line = "The line is currently:"
     katz_deli.each do |name|
       counter = 1
-      final_line << "#{counter}. #{name}"
+      final_line << " #{counter}. #{name}"
       counter += 1 
   end
   puts  final_line 
