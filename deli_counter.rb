@@ -18,5 +18,5 @@ end
 end
 
 def take_a_number(katz_deli, name)
-  puts "#{name} #{katz_deli.index(name)"
+  puts "#{name} #{katz_deli.index(name)}"
 end 
