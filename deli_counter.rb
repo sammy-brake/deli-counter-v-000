@@ -9,5 +9,6 @@ final_line = "The line is currently: "
       final_line << "#{counter}. #{name} "
       counter += 1 
   end 
-  puts final_line
 end 
+  puts final_line
+end
